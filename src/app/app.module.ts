@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NamecardComponent } from './namecard/namecard.component';
+import { ProgessBarComponent } from './progess-bar/progess-bar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NamecardComponent,
+    ProgessBarComponent
   ],
   imports: [
     BrowserModule,
