@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular-businessCard';
   NamNguyen = 'TienNguyen';
+  Nguyen = 'Vinh';
 }
